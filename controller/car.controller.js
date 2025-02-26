@@ -25,9 +25,20 @@ let addCar = (req, res) => {
     
 }
 
+let updateCar = (req, res) => {
+    let datas = getData("data")
+    let data = datas.find(el => el.id === +req.params.id)
+    if(req.body.owner) data.owner = req.body.owner
+    if(req.body.model) data.model = req.body.model
+    if(req.body.number) data.number = req.body.number
+
+    writeData("data" , datas)
+    res.status(202).send({message: "Success",data})
+}
 
 module.exports = {
     getCars,
     getCarById,
-    addCar
+    addCar,
+    updateCar
 }
