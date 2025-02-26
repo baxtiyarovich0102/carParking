@@ -12,5 +12,19 @@
         "owner": "Nazarov Diyor",
         "model": "Hyundai Sonata",
         "parkedAt": "2025-02-25T11:30:00Z"
+    },
+    {
+        "number": "01A123AB",
+        "owner": "Aliyev Hasanas",
+        "model": "Chevrolet Malibu",
+        "parkedAt": "2025-02-26T08:59:46.981Z",
+        "id": 3
+    },
+    {
+        "number": "01A123AB",
+        "owner": "Aliyev Hasanassadasd",
+        "model": "Chevrolet Malibu",
+        "parkedAt": "2025-02-26T09:00:13.242Z",
+        "id": 4
     }
 ]
